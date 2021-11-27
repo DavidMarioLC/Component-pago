@@ -1,0 +1,189 @@
+.card {
+  background: hsla(0, 0%, 100%, 1);
+  box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 360px;
+}
+
+input,
+button {
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid hsla(220, 26%, 91%, 1);
+}
+
+input:focus {
+  outline: 1px solid hsla(325, 91%, 41%, 1);
+}
+
+.card > * {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: hsla(330, 50%, 1%, 1);
+}
+
+.cardHeader {
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.cardName {
+}
+
+.cardCreditCard {
+  position: relative;
+}
+
+.iconCreditCard {
+  position: absolute;
+  right: 16px;
+  top: 28%;
+  transform: translateY(50%);
+  font-size: 2rem;
+  color: hsla(325, 91%, 61%, 1);
+}
+
+.cardDate {
+}
+
+.cardCVV {
+  position: relative;
+}
+
+.infoTooltip {
+  cursor: pointer;
+
+  position: absolute;
+  right: 16px;
+  top: 40%;
+  transform: translateY(50%);
+  font-size: 1.5rem;
+  color: hsla(325, 91%, 61%, 1);
+}
+
+.cardDate,
+.cardCVV {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardDirection {
+}
+
+.cardButton {
+}
+
+.buttonPrimary {
+  background: hsla(325, 91%, 41%, 1);
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttonPrimary:focus {
+  outline: 1px solid hsla(325, 91%, 41%, 1);
+}
+
+.buttonProcess {
+  cursor: wait;
+  background: hsl(143, 81%, 45%);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttonProcess span {
+  position: relative;
+}
+
+.buttonProcess::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120rem;
+  height: 100%;
+  border-radius: inherit;
+  background: hsl(143, 81%, 45%)
+    repeating-linear-gradient(
+      60deg,
+      transparent,
+      transparent 0.75rem,
+      hsla(143, 79%, 32%, 0.342) 0.75rem,
+      hsla(143, 79%, 32%, 0.342) 1.5rem
+    );
+
+  animation: move 1s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1.75rem);
+  }
+}
+
+.buttonProcess::after {
+  position: absolute;
+  content: ' ';
+}
+
+.disclaimer {
+  text-align: center;
+  color: hsla(330, 50%, 1%, 1);
+  font-size: 12px;
+}
+
+.cardGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.error {
+  font-weight: bold;
+  color: rgb(168, 20, 20);
+}
+
+.successContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.titleSuccessPayment {
+  font-size: 1.5rem;
+  color: #1c1d1a;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconSuccess {
+  font-size: 3rem;
+}
+
+.buttonSuccessPayment {
+  cursor: pointer;
+}
+
+.buttonSuccessPayment:active {
+  transform: scale(0.95);
+}
