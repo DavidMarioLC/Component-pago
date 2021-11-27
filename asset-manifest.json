@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Component-pago/static/css/main.21a58436.chunk.css",
+    "main.js": "/Component-pago/static/js/main.061507fb.chunk.js",
+    "main.js.map": "/Component-pago/static/js/main.061507fb.chunk.js.map",
+    "runtime-main.js": "/Component-pago/static/js/runtime-main.8243152a.js",
+    "runtime-main.js.map": "/Component-pago/static/js/runtime-main.8243152a.js.map",
+    "static/js/2.a92c925a.chunk.js": "/Component-pago/static/js/2.a92c925a.chunk.js",
+    "static/js/2.a92c925a.chunk.js.map": "/Component-pago/static/js/2.a92c925a.chunk.js.map",
+    "static/js/3.cb142f04.chunk.js": "/Component-pago/static/js/3.cb142f04.chunk.js",
+    "static/js/3.cb142f04.chunk.js.map": "/Component-pago/static/js/3.cb142f04.chunk.js.map",
+    "index.html": "/Component-pago/index.html",
+    "static/css/main.21a58436.chunk.css.map": "/Component-pago/static/css/main.21a58436.chunk.css.map",
+    "static/js/2.a92c925a.chunk.js.LICENSE.txt": "/Component-pago/static/js/2.a92c925a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8243152a.js",
+    "static/js/2.a92c925a.chunk.js",
+    "static/css/main.21a58436.chunk.css",
+    "static/js/main.061507fb.chunk.js"
+  ]
+}
